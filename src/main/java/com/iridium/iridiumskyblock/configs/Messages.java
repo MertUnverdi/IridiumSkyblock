@@ -23,6 +23,7 @@ public class Messages {
     public String invitedPlayer = "%prefix% &7You have invited %player% to join your island";
     public String userInvitedPlayer = "%prefix% &7%inviter% has invited %player% to join your island";
     public String youHaveBeenInvited = "%prefix% &7%inviter% has invited you to join their island";
+    public String alreadyInYourIsland = "%prefix% &7This player is already a member of your Island.";
     public String inviteRevoked = "%prefix% &7Island invite for %player% has been revoked";
     public String inviteDoesntExist = "%prefix% &7%player% has no active invite for your island.";
     public String alreadyInvited = "%prefix% &7You have already invited this user to your island.";
@@ -48,4 +49,18 @@ public class Messages {
     public String demotedPlayer = "%prefix% &7You have demoted %player% to %rank%.";
     public String userDemotedPlayer = "%prefix% &7%promoter% has demoted %player% to %rank%.";
     public String transferredOwnership = "%prefix% &7%oldowner% has transferred Island ownership to %newowner%.";
+    public String cannotTransferYourself = "%prefix% &7You cannot transfer the island ownership to yourself.";
+    public String cannotBreakBlocks = "%prefix% &7You cannot break blocks on this island.";
+    public String cannotPlaceBlocks = "%prefix% &7You cannot place blocks on this island.";
+    public String cannotUseBuckets = "%prefix% &7You cannot use buckets on this island.";
+    public String cannotMineSpawners = "%prefix% &7You cannot place blocks on this island.";
+    public String cannotOpenDoors = "%prefix% &7You cannot open doors on this island.";
+    public String cannotOpenContainers = "%prefix% &7You cannot open containers on this island.";
+    public String cannotChangePermissions = "%prefix% &7You cannot change this Permission.";
+    public String cannotUseRedstone = "%prefix% &7You cannot use redstone on this island.";
+    public String cannotHurtMobs = "%prefix% &7You cannot hurt mobs on this island.";
+    public String cannotInviteMember = "%prefix% &7You cannot invite members to this island.";
+    public String cannotRegenIsland = "%prefix% &7You cannot regenerate your island.";
+    public String cannotInteractEntities = "%prefix% &7You cannot interact with entities on this island.";
+    public String cannotDropItems = "%prefix% &7You cannot drop items on this island.";
 }
